@@ -1,0 +1,189 @@
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1em 1.5em;
+	font-size: max(15px, 1.1vw);
+}
+
+.nav--container {
+	display: flex;
+	align-items: center;
+	flex: 1;
+}
+
+.navbar--logo {
+	max-width: 230px;
+}
+
+.nav--container > ul {
+	display: flex;
+	gap: 4.5em;
+	margin: 0;
+	list-style-type: none;
+}
+
+.nav--container > ul > li {
+	padding: 0 0 0.5em 0;
+	font-size: 1.1rem;
+	font-weight: 500;
+	cursor: pointer;
+	position: relative;
+}
+
+.more {
+	display: flex;
+	gap: 1em;
+	flex-direction: column;
+	align-items: center;
+
+	position: absolute;
+	top: 30px;
+
+	width: 100px;
+	padding: 20px;
+	background-color: #fff;
+	border-radius: 10px;
+	border: 2px solid #eeeefe;
+	box-shadow: 0px 0px 15px rgb(223, 223, 223);
+	z-index: 9999;
+}
+
+.more li {
+	transition: all linear 0.1s;
+	list-style-type: none;
+}
+
+.more li:hover {
+	color: #4d50a2;
+}
+
+.more-medical {
+	left: -5px;
+}
+
+.more-more {
+	left: -50px;
+}
+
+.nav--button-container {
+	display: flex;
+	gap: 0.5em;
+}
+
+.nav--button-container a {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0.8rem 1.1rem;
+	letter-spacing: 1px;
+	border-radius: 10px;
+	font-weight: 500;
+	text-decoration: none;
+	font-size: 1rem;
+	transition: all linear 0.2s;
+}
+
+.log-in {
+	border: 1px solid #122032;
+	color: #122032;
+}
+
+.log-in:hover {
+	background-color: #f9fafc;
+}
+
+.get-payground {
+	color: #fff;
+	background-color: #303178;
+}
+
+.get-payground:hover {
+	background-color: #122032;
+}
+
+.hamburger-icon {
+	display: none;
+	width: 30px;
+	cursor: pointer;
+}
+
+.nav--wave {
+	display: none;
+}
+
+.nav--arrow {
+	display: none;
+}
+
+@media screen and (max-width: 1090px) {
+	.get-payground {
+		color: #fff;
+	}
+	.hamburger-icon {
+		display: inline-block;
+		position: absolute;
+		top: 1em;
+		right: 1.5em;
+	}
+
+	nav {
+		flex-direction: column;
+		background-color: #fff;
+	}
+
+	.nav--container {
+		display: inline-block;
+		width: 100%;
+	}
+
+	.nav--container > ul {
+		flex-direction: column;
+		gap: 1em;
+		width: 100%;
+		padding: 1rem 0;
+	}
+
+	.nav--container > ul > li {
+		font-size: 25px;
+		border-bottom: 2px solid #d9dbde;
+		width: 100%;
+	}
+
+	.arrow-container {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.nav--arrow {
+		display: inline-block;
+		width: 40px;
+		height: auto;
+	}
+
+	.more {
+		align-items: baseline;
+		position: inherit;
+		top: 0;
+		left: 0;
+		width: 100%;
+		padding: 10px 0;
+		font-size: 1.2rem;
+		box-shadow: none;
+		border: none;
+	}
+
+	.more li {
+		padding: 0.2ch 1ch;
+	}
+
+	.nav--button-container {
+		padding: 2ch 0;
+	}
+
+	.nav--wave {
+		display: block;
+		padding: 2em 0;
+	}
+}
