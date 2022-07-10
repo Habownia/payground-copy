@@ -1,0 +1,30 @@
+.quote {
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: column;
+	background-color: #fbf1dbc9;
+	min-height: 300px;
+	max-width: 350px;
+	padding: 1.5rem;
+	border-radius: 10px;
+}
+
+.quote-img {
+	width: 3ch;
+}
+
+.quote--person {
+	font-weight: bold;
+}
+
+.quote p:nth-child(2) {
+	font-size: 1.2rem;
+	font-weight: 300;
+}
+
+@media screen and (max-width: 550px) {
+	.quote {
+		padding: 1rem;
+		margin: 1rem;
+	}
+}
