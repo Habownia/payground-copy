@@ -1,0 +1,52 @@
+.mobile {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.mobile > img {
+	max-width: 40%;
+	min-width: 300px;
+}
+
+.mobile--content-container {
+	display: flex;
+	flex: 0 1 60ch;
+	flex-direction: column;
+}
+
+.mobile--content-container > h2 {
+	color: #122032;
+	font-size: 2.5rem;
+	font-weight: 500;
+	margin: 0 0 10px 0;
+}
+
+.mobile--content-container > p {
+	margin: 20px 0;
+	font-size: 1.2rem;
+}
+
+.mobile--buttons {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 1ch;
+	flex-wrap: wrap;
+	width: fit-content;
+}
+
+@media screen and (max-width: 870px) {
+	.mobile--content-container {
+		flex-basis: 80%;
+		flex-grow: 0;
+		gap: 0.5ch;
+		text-align: center;
+		align-items: center;
+	}
+
+	.mobile--content-container > h2 {
+		font-size: 2rem;
+	}
+}
