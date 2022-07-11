@@ -13,7 +13,7 @@ function App() {
 			<Hero />
 			<Mobile />
 			<Opinions />
-			<Reasons />  
+			<Reasons />    
 		</>
 	);
 }
