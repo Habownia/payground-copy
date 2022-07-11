@@ -1,8 +1,8 @@
 import '../css/Mobile.css';
 
-import phone from '../img/phone.png';
-import googlePlay from '../img/google-play.svg';
-import appStore from '../img/app-store.svg';
+import phone from '../img/Mobile/phone.png';
+import googlePlay from '../img/Mobile/google-play.svg';
+import appStore from '../img/Mobile/app-store.svg';
 
 function Mobile() {
 	return (
@@ -15,9 +15,9 @@ function Mobile() {
 					medical bills.
 				</p>
 				<div className='mobile--buttons'>
-                    <img src={googlePlay} alt="app store"/>
-                    <img src={appStore} alt="google play"/>
-                </div>
+					<img src={googlePlay} alt='app store' />
+					<img src={appStore} alt='google play' />
+				</div>
 			</div>
 		</section>
 	);

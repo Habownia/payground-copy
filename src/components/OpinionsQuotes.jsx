@@ -1,6 +1,6 @@
 import '../css/OpinionsQuotes.css';
 
-import quote from '../img/quote.svg';
+import quote from '../img/Opinions/quote.svg';
 
 function OpinionsQuotes(props) {
 	return (

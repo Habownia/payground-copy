@@ -1,7 +1,7 @@
 import '../css/Hero.css';
 
-import heroDoc from '../img/hero-doctor.png';
-import heroWave from '../img/hero-wave.svg';
+import heroDoc from '../img/Hero/hero-doctor.png';
+import heroWave from '../img/Hero/hero-wave.svg';
 
 function Hero() {
 	return (

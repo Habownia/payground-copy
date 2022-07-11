@@ -1,0 +1,37 @@
+.reason {
+	min-height: 300px;
+	max-width: 320px;
+	padding: 1.5rem;
+	border-radius: 10px;
+}
+
+.reason-img {
+	width: 50%;
+}
+
+.reason h3 {
+	font-size: 2rem;
+	margin: 0.5rem 0;
+	font-weight: 500;
+}
+
+.reason p {
+	font-size: 1.3rem;
+	margin: 1rem 0;
+}
+
+@media screen and (max-width: 767px) {
+	.reason {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		align-items: center;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	.reason {
+		padding: 1rem;
+		margin: 1rem;
+	}
+}
