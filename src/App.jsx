@@ -5,6 +5,7 @@ import Hero from './components/Hero';
 import Mobile from './components/Mobile';
 import Opinions from './components/Opinions';
 import Reasons from './components/Reasons';
+import Payments from './components/Payments';
 
 function App() {
 	return (
@@ -14,6 +15,7 @@ function App() {
 			<Mobile />
 			<Opinions />
 			<Reasons />    
+			<Payments />
 		</>
 	);
 }

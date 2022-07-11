@@ -29,41 +29,51 @@ nav {
 	font-weight: 500;
 	cursor: pointer;
 	position: relative;
+	cursor: pointer;
 }
 
 .more {
 	display: flex;
-	gap: 1em;
+	gap: 0.8em;
 	flex-direction: column;
 	align-items: center;
 
 	position: absolute;
-	top: 30px;
+	top: 40px;
+	left: 50%;
+	transform: translateX(-50%);
 
-	width: 100px;
-	padding: 20px;
+	width: 105px;
+	padding: 1rem 2rem;
+	font-size: 1.2rem;
 	background-color: #fff;
 	border-radius: 10px;
-	border: 2px solid #eeeefe;
-	box-shadow: 0px 0px 15px rgb(223, 223, 223);
+	border: 1px solid #eeeefe;
+	box-shadow: 0px 0px 20px rgba(223, 223, 223, 0.7);
 	z-index: 9999;
 }
 
-.more li {
+.more > li {
 	transition: all linear 0.1s;
 	list-style-type: none;
+	padding: 0.2rem;
 }
 
-.more li:hover {
+.more > li:hover {
 	color: #4d50a2;
 }
 
-.more-medical {
-	left: -5px;
-}
-
-.more-more {
-	left: -50px;
+/* trójkąt przy navbarze */
+.more::before {
+	content: ' ';
+	position: absolute;
+	top: -10px;
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 20px solid #ffffff;
+	color: transparent;
 }
 
 .nav--button-container {
@@ -170,12 +180,18 @@ nav {
 		width: 100%;
 		padding: 10px 0;
 		font-size: 1.2rem;
+		transform: none;
 		box-shadow: none;
 		border: none;
 	}
 
+	.more::before {
+		display: none;
+	}
+
 	.more li {
 		padding: 0.2ch 1ch;
+		border-bottom: none;
 	}
 
 	.nav--button-container {
