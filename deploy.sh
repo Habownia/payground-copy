@@ -12,6 +12,9 @@ cd dist
 # if you are deploying to a custom domain
 # echo 'www.example.com' > CNAME
 
+# removing old .git directory in dist
+rm -rf .git
+
 git init
 git checkout -b main
 git add -A
