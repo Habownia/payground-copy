@@ -1,7 +1,4 @@
 .reasons {
-	display: flex;
-	align-items: center;
-	justify-content: center;
 	flex-direction: column;
 	margin: 3em 0;
 }
@@ -29,8 +26,6 @@
 }
 
 .reasons-container {
-	display: flex;
-	justify-content: center;
 	flex-wrap: wrap;
 	gap: 2em;
 }
@@ -38,5 +33,9 @@
 @media screen and (max-width: 550px) {
 	.description-container > h2 {
 		font-size: 1.7rem;
+	}
+
+	.reasons-container{
+		gap: .5em;
 	}
 }

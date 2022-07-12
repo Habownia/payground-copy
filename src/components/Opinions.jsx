@@ -4,7 +4,7 @@ import OpinionsQuotes from './OpinionsQuotes';
 
 function Opinions() {
 	return (
-		<section className='opinions'>
+		<section className='opinions center'>
 			<div class='description-container'>
 				<h2>A people-first approach to healthcare payments.</h2>
 				<p>
@@ -12,7 +12,7 @@ function Opinions() {
 					long phone waits.
 				</p>
 			</div>
-			<div className='quotes-container'>
+			<div className='quotes-container center'>
 				<OpinionsQuotes
 					content='I have my hands full with two little ones, and viewing and paying our medical bills on the go and with a couple of clicks has been a game changer!'
 					person='Aimee L.'

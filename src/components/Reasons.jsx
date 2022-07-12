@@ -8,7 +8,7 @@ import callendarImg from '../img/Reasons/callendar.svg';
 
 function Reasons() {
 	return (
-		<section className='reasons'>
+		<section className='reasons center'>
 			<div class='description-container'>
 				<h2>A people-first approach to healthcare payments.</h2>
 				<p>
@@ -16,7 +16,7 @@ function Reasons() {
 					long phone waits.
 				</p>
 			</div>
-			<div className='reasons-container'>
+			<div className='reasons-container center'>
 				<ReasonsBlocks
 					img={clockImg}
 					alt='clock image'

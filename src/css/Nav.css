@@ -34,9 +34,9 @@ nav {
 
 .more {
 	display: flex;
-	gap: 0.8em;
-	flex-direction: column;
 	align-items: center;
+	flex-direction: column;
+	gap: 0.8em;
 
 	position: absolute;
 	top: 40px;
@@ -49,7 +49,7 @@ nav {
 	background-color: #fff;
 	border-radius: 10px;
 	border: 1px solid #eeeefe;
-	box-shadow: 0px 0px 20px rgba(223, 223, 223, 0.7);
+	box-shadow: 0px 0px 20px #dfdfdfb3;
 	z-index: 9999;
 }
 
@@ -60,7 +60,7 @@ nav {
 }
 
 .more > li:hover {
-	color: #4d50a2;
+	color: var(--purple);
 }
 
 /* trójkąt przy navbarze */
@@ -72,7 +72,7 @@ nav {
 	height: 0;
 	border-left: 10px solid transparent;
 	border-right: 10px solid transparent;
-	border-bottom: 20px solid #ffffff;
+	border-bottom: 20px solid #fff;
 	color: transparent;
 }
 
@@ -95,8 +95,8 @@ nav {
 }
 
 .log-in {
-	border: 1px solid #122032;
-	color: #122032;
+	border: 1px solid var(--black);
+	color: var(--black);
 }
 
 .log-in:hover {
@@ -109,7 +109,7 @@ nav {
 }
 
 .get-payground:hover {
-	background-color: #122032;
+	background-color: var(--black);
 }
 
 .hamburger-icon {

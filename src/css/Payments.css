@@ -1,15 +1,11 @@
 .payments {
-	display: flex;
 	flex-direction: column;
-	align-items: center;
-	background-color: #4d50a2;
+	background-color: var(--purple);
 	color: #fff;
 }
 
 .payments--text-container {
-	display: flex;
 	flex-direction: column;
-	align-items: center;
 	margin: 3rem;
 	text-align: center;
 }
@@ -34,8 +30,14 @@
 	font-size: 1.2rem;
 	font-weight: 500;
 	background-color: #fff;
-	color: #4d50a2;
+	color: var(--purple);
 	border-radius: 10px;
+	cursor: pointer;
+	transition: all linear 0.2s;
+}
+
+.get-button:hover {
+	background-color: #fda;
 }
 
 .payments--img {
@@ -58,9 +60,9 @@
 	.payments--img {
 		display: none;
 	}
-    .payments--phone-img{
-        display: block;
-        max-width: 60%;
-        min-width: 220px;
-    }
+	.payments--phone-img {
+		display: block;
+		max-width: 60%;
+		min-width: 220px;
+	}
 }

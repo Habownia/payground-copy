@@ -5,8 +5,8 @@ import phone from '../img/Payments/phone.svg'
 
 function Payments() {
 	return (
-		<section className='payments'>
-			<div className='payments--text-container'>
+		<section className='payments center'>
+			<div className='payments--text-container center'>
 				<h2>
 					Healthcare payments made easy.<sup>™</sup>
 				</h2>
