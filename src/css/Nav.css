@@ -105,7 +105,7 @@ nav {
 
 .get-payground {
 	color: #fff;
-	background-color: #303178;
+	background-color: var(--dark-purple);
 }
 
 .get-payground:hover {

@@ -1,0 +1,66 @@
+.demo {
+	flex-wrap: wrap;
+	gap: 3ch;
+	justify-content: space-evenly;
+	padding: 5ch;
+}
+
+.demo--container {
+	display: flex;
+	align-items: baseline;
+	flex-direction: column;
+	flex: 1 1 50ch;
+	max-width: 50ch;
+	position: relative;
+}
+
+.demo--container > h3 {
+	color: var(--purple);
+}
+
+.demo--container > h2 {
+	font-size: 2.2em;
+	font-weight: 500;
+	margin: 0.2em 0;
+}
+
+.demo--container > p {
+	font-size: 1.2em;
+}
+
+.demo--button {
+	padding: 2ch;
+	margin-top: 1ch;
+	font-size: 1.1em;
+	font-weight: 500;
+	background-color: var(--dark-purple);
+	color: #fff;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: background-color linear 0.2s;
+}
+
+.demo--button:hover {
+	background-color: var(--black);
+}
+
+.demo > img {
+	flex: 0 1 80ch;
+	min-width: 10ch;
+}
+
+@media screen and (max-width: 1250px) {
+	.demo {
+		padding: 2ch;
+	}
+	.demo--container {
+		flex-basis: 60%;
+		align-items: center;
+		text-align: center;
+		font-size: max(1.5vw, 14px);
+	}
+
+	.demo > img {
+		flex-basis: 80%;
+	}
+}
