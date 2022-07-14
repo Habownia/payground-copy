@@ -1,6 +1,6 @@
 import '../css/Hero.css';
 
-import heroDoc from '../img/Hero/hero-doctor.png';
+import heroDoc from '../img/Hero/hero-doctor.webp';
 import heroWave from '../img/Hero/hero-wave.svg';
 
 function Hero() {

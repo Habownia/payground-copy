@@ -1,6 +1,6 @@
 import '../css/Payments.css';
 
-import banerImg from '../img/Payments/baner.jpg';
+import banerImg from '../img/Payments/baner.webp';
 import phone from '../img/Payments/phone.svg'
 
 function Payments() {

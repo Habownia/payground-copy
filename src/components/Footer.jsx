@@ -3,7 +3,7 @@ import '../css/Footer.css';
 import logo from '../img/Footer/logo.svg';
 import googlePlay from '../img/Footer/google-play.svg';
 import appStore from '../img/Footer/app-store.svg';
-import aicpa from '../img/Footer/aicpa-logo.png';
+import aicpa from '../img/Footer/aicpa-logo.webp';
 import facebook from '../img/Footer/facebook.svg';
 import twitter from '../img/Footer/twitter.svg';
 import instagram from '../img/Footer/instagram.svg';

@@ -3,9 +3,9 @@ import { useState } from 'react';
 import '../css/Nav.css';
 
 import navLogo from '../img/Nav/nav-logo.svg';
-import hamburgerIcon from '../img/Nav/hamburger.png';
+import hamburgerIcon from '../img/Nav/hamburger.webp';
 import mobileWave from '../img/Nav/mobile-wave-image.svg';
-import arrow from '../img/Nav/arrow-down.png';
+import arrow from '../img/Nav/arrow-down.webp';
 
 function Nav() {
 	let setWidth = window.innerWidth >= 1090 ? true : false;

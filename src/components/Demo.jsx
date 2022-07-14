@@ -1,6 +1,6 @@
 import '../css/Demo.css';
 
-import docImg from '../img/Demo/doc.png'
+import docImg from '../img/Demo/doc.webp';
 
 function Demo() {
 	return (
@@ -14,7 +14,7 @@ function Demo() {
 				</p>
 				<span className='demo--button'>Demo the Platform</span>
 			</div>
-			<img src={docImg} alt="doctor with tablet"/>
+			<img src={docImg} alt='doctor with tablet' />
 		</section>
 	);
 }

@@ -1,6 +1,6 @@
 import '../css/Mobile.css';
 
-import phone from '../img/Mobile/phone.png';
+import phone from '../img/Mobile/phone.webp';
 import googlePlay from '../img/Mobile/google-play.svg';
 import appStore from '../img/Mobile/app-store.svg';
 
