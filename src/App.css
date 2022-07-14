@@ -1,11 +1,19 @@
 :root {
-    --purple: #4d50a2;
+	--purple: #4d50a2;
 	--dark-purple: #303178;
-    --black: #122032;
+	--black: #122032;
 }
 
 .center {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+img {
+	user-select: none;
+}
+
+body * {
+	-webkit-tap-highlight-color: transparent;
 }

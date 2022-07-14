@@ -12,12 +12,6 @@ footer a {
 	color: black;
 }
 
-.underline {
-	color: var(--dark-purple);
-	text-decoration: underline;
-	font-weight: 500;
-}
-
 .footer--container {
 	width: 80%;
 }
@@ -46,6 +40,22 @@ footer a {
 	color: var(--dark-purple);
 }
 
+.footer--column a:hover {
+	text-decoration: underline;
+	color: var(--dark-purple);
+	cursor: pointer;
+}
+
+.underline {
+	color: var(--dark-purple);
+	text-decoration: underline;
+	font-weight: 500;
+}
+
+.underline:hover {
+	text-decoration: none !important;
+}
+
 .footer--button {
 	display: inline;
 	margin: 0;
@@ -61,6 +71,7 @@ footer a {
 	width: 25px;
 	height: 25px;
 	padding: 0.5em 0.5em 0 0;
+	cursor: pointer;
 }
 
 .footer--bottom {

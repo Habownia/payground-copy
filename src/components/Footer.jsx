@@ -49,12 +49,12 @@ function Footer() {
 					</div>
 					<div className='footer--column'>
 						<h3>About</h3>
-						<p>About</p>
-						<p>Contact</p>
-						<p>Support</p>
-						<p>Blog</p>
-						<p>Careers</p>
-						<p>Media Kit</p>
+						<a>About</a>
+						<a>Contact</a>
+						<a>Support</a>
+						<a>Blog</a>
+						<a>Careers</a>
+						<a>Media Kit</a>
 					</div>
 					<div className='footer--column'>
 						<h3>Company</h3>
